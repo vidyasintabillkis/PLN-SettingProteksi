@@ -13,4 +13,19 @@ class Home extends BaseController
     {
         return view('up2d/login');
     }
+
+    public function unit(): string
+    {
+        return view('up2d/unit');
+    }
+
+    public function tambah_unit(): string
+    {
+        return view('up2d/tambah_unit');
+    }
+
+    public function edit_unit(): string
+    {
+        return view('up2d/edit_unit');
+    }
 }
