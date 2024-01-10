@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('nonup2d/beranda');
+        return view('nonup2d/landingpage');
     }
 
     public function login(): string
